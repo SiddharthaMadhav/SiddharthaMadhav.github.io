@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Siddhartha Madhav Gollapinni</title>
+    <style>
+        body{
+            background-color: black;
+            color: green;
+        }
+        button{
+            float: left;
+            clear: left;
+            background-color: green;
+            color: white;
+            margin: 6px;
+            font-size: 18px;
+
+        }
+        html{
+            display: table;
+            margin: auto;
+            font-size: 25px;
+        }
+        label{
+            float: left;
+            clear: left;
+            color: lightgreen;
+        }
+        input{
+            background-color: #454545;
+            color: white;
+        }
+        h1{
+            align-content: center;
+            font: arial;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>MATRIX LABS</h1>
+    <button type="button" id="connectButton">Connect</button> 
+    <button type="button" id="fetchButton">Fetch</button>
+    <label for="output">Wallet Balance <input type="textbox" name="tokenBalance"></label>
+    <label for="output">Token Name <input type="textbox" name="tokenName"></label>
+    <label for="output">Token Address<input type="textbox" name="tokenAddress"></label>
+    <label for="output">Token Symbol <input type="textbox" name="tokenSymbol"></label>
+    <label for="output">Token Decimal <input type="textbox" name="tokenDecimal"></label>
+    <label for="output">Token Supply <input type="textbox" name="tokenSupply"></label>
+    <label style="margin-top: 20px;">Send Address: <input type="text" name="sendAddress"></label>
+    <button type="button" id="sendButton">SendToken</button>
+    <script src="./index.js" type="module"></script>
+</body>
+</html>
